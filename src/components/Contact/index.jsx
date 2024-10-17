@@ -3,7 +3,7 @@ import { FaPhone } from "react-icons/fa6";
 import { IoPersonSharp } from "react-icons/io5";
 import { RiDeleteBin6Fill } from "react-icons/ri";
 
-import { deleteContact } from "src/redux/operations";
+import { deleteContact } from "src/redux/contactsOps";
 
 import Button from "../Button";
 

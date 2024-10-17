@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-hot-toast";
 import { FaPhoneVolume } from "react-icons/fa";
 
-import { fetchContacts } from "src/redux/operations";
+import { fetchContacts } from "src/redux/contactsOps";
 
 import ContactForm from "./ContactForm";
 import ContactList from "./ContactList";

@@ -3,7 +3,7 @@ import * as Yup from "yup";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { IoPersonAddSharp } from "react-icons/io5";
 import { useDispatch } from "react-redux";
-import { addContact } from "src/redux/operations";
+import { addContact } from "src/redux/contactsOps";
 
 import Button from "../Button";
 
