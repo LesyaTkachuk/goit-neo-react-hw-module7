@@ -22,7 +22,7 @@ function App() {
 
   useEffect(() => {
     dispatch(fetchContacts());
-  }, []);
+  }, [dispatch]);
 
   useEffect(() => {
     if (error) {
